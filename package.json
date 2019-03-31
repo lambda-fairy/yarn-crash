@@ -1,0 +1,12 @@
+{
+  "name": "yarncrash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc node --experimental-worker test.js"
+  },
+  "devDependencies": {
+    "nyc": "13.3.0"
+  }
+}
